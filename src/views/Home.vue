@@ -35,6 +35,6 @@ export default {
 <style lang="scss" scoped>
     .game-list {
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
     }
 </style>
