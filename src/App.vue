@@ -1,5 +1,6 @@
 <template>
   <h1>hi</h1>
+  <p>I'll be building a game publisher here!</p>
 </template>
 
 <script>
