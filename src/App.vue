@@ -1,12 +1,23 @@
 <template>
-  <h1>hi</h1>
-  <p>I'll be building a game publisher here!</p>
+  <div>
+    <Header />
+    <Main />
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Header from "@/layout/TheHeader"
+import Main from "@/layout/TheMain"
+import Footer from "@/layout/TheFooter"
 
 export default {
   name: 'App',
+  components: {
+    Header,
+    Main,
+    Footer
+  }
 }
 </script>
 
